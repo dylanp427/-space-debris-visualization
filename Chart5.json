@@ -1,0 +1,51 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple pie chart",
+
+  "params": [
+    {
+      "name": "Timeline",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "options": [
+          "All",
+          "Past 10 years"
+        ]
+      }
+    }
+  ],
+
+  "data": {
+    "values": [
+      {"category": "Anomalous", "value": 116 , "zeit":"All"},
+      {"category": "Populsion", "value": 155 , "zeit":"All"},
+      {"category": "Deliberate", "value": 108 , "zeit":"All"},
+      {"category": "Accidental", "value": 25 , "zeit":"All"},
+      {"category": "Aerodynamics", "value": 32 , "zeit":"All"},
+      {"category": "Small impactor", "value": 10 , "zeit":"All"},
+      {"category": "Electrical", "value": 25 , "zeit":"All"},
+      {"category": "Unknown", "value": 108 , "zeit":"All"},
+      {"category": "Collision", "value": 5 , "zeit":"All"},
+
+      {"category": "Anomalous", "value": 17 , "zeit":"Past 10 years"},
+      {"category": "Populsion", "value": 31 , "zeit":"Past 10 years"},
+      {"category": "Deliberate", "value": 1 , "zeit":"Past 10 years"},
+      {"category": "Accidental", "value": 2 , "zeit":"Past 10 years"},
+      {"category": "Aerodynamics", "value": 5 , "zeit":"Past 10 years"},
+      {"category": "Small impactor", "value": 5 , "zeit":"Past 10 years"},
+      {"category": "Electrical", "value": 5 , "zeit":"Past 10 years"},
+      {"category": "Unknown", "value": 27 , "zeit":"Past 10 years"},
+      {"category": "Collision", "value": 0 , "zeit":"Past 10 years"}
+      
+    ]
+  },
+  "transform": [
+    {"filter": "datum.zeit==Timeline"}
+  ],
+  "mark": {"type": "arc", "innerRadius": 0, "stroke": "#fff"},
+  "encoding": {
+    "theta": {"field": "value", "type": "quantitative", "stack": true},
+    "color": {"field": "category", "type": "nominal"}
+  }
+}

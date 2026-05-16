@@ -1,0 +1,35 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "data": {"url": "https://raw.githubusercontent.com/dylanp427/Space-junk/refs/heads/main/satcat.csv"},
+
+  "params": [
+    {
+      "name": "ObjectType",
+      "value": "DEB",
+      "bind": {
+        "input": "select",
+        "options": [
+          "DEB",
+          "PAY",
+          "R/B"
+        ]
+      }
+    }
+  ],
+
+  "transform": [
+    {"filter": "datum.OBJECT_TYPE==ObjectType"}
+  ],
+  "mark": {"type":"circle","size":1},
+  "encoding": {
+    "x": {"field": "PERIGEE", "type": "quantitative","scale": {
+        "domain": [100, 100000], "type":"log"
+      }},
+    "y": {"field": "APOGEE", "type": "quantitative","scale": {
+        "domain": [100, 100000], "type":"log"
+      }},
+    "color": {"field": "INCLINATION", "type": "quantitative","scale":{"domain":[1,80,100]}}
+    
+    
+  }
+}
