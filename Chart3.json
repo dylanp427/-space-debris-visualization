@@ -1,8 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "title": "Debris per 1,000,000 population by country",
-  "width": 800,
-  "height": 400,
+  "width": 400,
+  "height": 200,
+  "background": "black",
+  
   "projection": {"type": "equalEarth"},
   "data": {
   "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson","format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
@@ -47,5 +49,14 @@
   {"field": "Debris", "type": "quantitative"},
   {"field": "Debris per 1,000,000 population", "type": "quantitative", "format": ".2f"}
   ]
+  },"config": {
+    "title": {
+      "color": "white",
+      "subtitleColor": "white"
+    },
+    "legend": {
+      "titleColor": "white",
+      "labelColor": "white"
+    }
   }
 }

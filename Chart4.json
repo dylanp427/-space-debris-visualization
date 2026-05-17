@@ -1,7 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "data": {"url": "https://raw.githubusercontent.com/dylanp427/Space-junk/refs/heads/main/satcat.csv"},
-
+  "background": "black",
+  "title": {"text":"Distribution of orbits of different pieces of space junk","color":"white","subtitle":"Space junk follows a variety of orbital paths some altitudes like Geostationary are very cluttered, sicne colour denoted the inclination dar colours mean the orbits go towards the poles","subtitleColor":"white"},
   "params": [
     {
       "name": "ObjectType",
@@ -31,5 +32,19 @@
     "color": {"field": "INCLINATION", "type": "quantitative","scale":{"domain":[1,80,100]}}
     
     
+  },
+  "config": {
+    "title": {
+      "color": "white",
+      "subtitleColor": "white"
+    },
+    "legend": {
+      "titleColor": "white",
+      "labelColor": "white"
+    },
+    "axis":{
+      "titleColor": "white",
+      "labelColor": "white"
+    }
   }
 }

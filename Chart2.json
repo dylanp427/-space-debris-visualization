@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v6.json",
-  "description": "Nomogram of space junk impact energy as a function of angle and mass.",
-  "width": 700,
-  "height": 400,
+  "title": {"text":"Nomogram of space junk impact energy as a function of angle and mass.","color":"white","subtitle":"Mass is in grams, Energy is in joules for context an apple falling 1m has 1 Joule of energy ","subtitleColor":"white"},
+  "width": 350,
+  "height": 200,
   "padding": 5,
 
   "config": {

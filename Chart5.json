@@ -1,7 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A simple pie chart",
-
+  "title": {"text":"Origin of different types of space junk","color":"white","subtitle":"Space junk comes from a varaity of origins, the main ones are from anomalous causes, propulsion and unknown causes.","subtitleColor":"white"},
+  "background": "black",
   "params": [
     {
       "name": "Timeline",
@@ -47,5 +48,19 @@
   "encoding": {
     "theta": {"field": "value", "type": "quantitative", "stack": true},
     "color": {"field": "category", "type": "nominal"}
+  },
+  "config": {
+    "title": {
+      "color": "white",
+      "subtitleColor": "white"
+    },
+    "legend": {
+      "titleColor": "white",
+      "labelColor": "white"
+    },
+    "axis":{
+      "titleColor": "white",
+      "labelColor": "white"
+    }
   }
 }

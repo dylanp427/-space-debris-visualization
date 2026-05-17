@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v6.json",
-  "description": "A basic line chart example.",
+  "title": {"text":"The amount of space junk has increased over time and then plateaued","color":"white","subtitle":"In the early years, the amount of space junk increased rapidly, but in recent years, it has stoped increasing as much","subtitleColor":"white"},
   "width": 500,
   "height": 200,
   "padding": 5,
