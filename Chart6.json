@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v6.json",
-  "description": "A basic bar chart example, with value labels shown upon pointer hover.",
+  "title": "Number of pieces of space junk in different size categories",
   "width": 400,
   "height": 200,
   "padding": 5,
