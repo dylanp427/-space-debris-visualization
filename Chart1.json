@@ -1,6 +1,8 @@
 {
+  "_comment": "https://ourworldindata.org/grapher/low-earth-orbits-objects",
+  
   "$schema": "https://vega.github.io/schema/vega/v6.json",
-  "title": {"text":"The amount of space junk has increased over time and then plateaued","color":"white","subtitle":"In the early years, the amount of space junk increased rapidly, but in recent years, it has stoped increasing as much","subtitleColor":"white"},
+  "title": {"text":"The number of large pieces of space junk has increased over time and then plateaued","color":"white","subtitle":"The amount of space junk has been increasing rapidly over the years although a recent solar cycle means that many pieces of space junk reenters the atmosphere","subtitleColor":"white"},
   "width": 500,
   "height": 200,
   "padding": 5,
@@ -164,5 +166,19 @@
         }
       ]
     }
-  ]
+  ],
+  "config": {
+    "title": {
+      "color": "white",
+      "subtitleColor": "white"
+    },
+    "legend": {
+      "titleColor": "white",
+      "labelColor": "white"
+    },
+    "axis":{
+      "titleColor": "white",
+      "labelColor": "white"
+    }
+  }
 }

@@ -22,3 +22,8 @@ var vg_5 = "Chart5.json";
 vegaEmbed("#c5", vg_5).then(function(result) {
 
 }).catch(console.error);
+
+var vg_6 = "Chart6.json";
+vegaEmbed("#c6", vg_6).then(function(result) {
+
+}).catch(console.error);
