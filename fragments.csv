@@ -1,0 +1,14 @@
+event_id,object_name,norad_id,event_date,altitude_km,orbit_type,fragments_cataloged,cause,notes
+E001,Fengyun-1C (FY-1C),25730,2007-01-11,865,LEO,2800,Intentional Destruction,Chinese ASAT missile test. Largest single debris event in history.
+E002,Cosmos 2251,22675,2009-02-10,789,LEO,1600,Accidental Collision,Collided with Iridium 33. First major hypervelocity satellite collision.
+E003,Cosmos 1408,13552,2021-11-15,480,LEO,1500,Intentional Destruction,Russian direct-ascent anti-satellite (DA-ASAT) test.
+E004,Iridium 33,24946,2009-02-10,776,LEO,700,Accidental Collision,Collided with Cosmos 2251.
+E005,NOAA 16,26536,2015-11-25,850,LEO,457,Accidental Explosion,Decommissioned weather satellite suffered battery/pressure vessel breakup.
+E006,Microsat-R,44052,2019-03-27,282,LEO,400,Intentional Destruction,Indian Mission Shakti ASAT test. Most fragments decayed rapidly.
+E007,Cosmos 2499,39765,2023-01-04,1169,LEO,85,Unknown,Presumed battery or propulsion system explosion at high LEO.
+E008,STEP 2 (Rocket Body),23107,1996-06-03,813,LEO,713,Accidental Explosion,H-2 rocket upper stage residual propellant explosion.
+E009,Transit 4A Able Star,00117,1961-06-29,875,LEO,300,Accidental Explosion,First historical recorded on-orbit fragmentation event.
+E010,Titan 3C-4 (Rocket Body),01583,1965-10-15,743,LEO,493,Accidental Explosion,Transtage upper stage overpressurization breakup.
+E011,DMSP F13,23521,2015-02-03,845,LEO,147,Accidental Explosion,Sudden power system failure and catastrophic battery rupture.
+E012,USA 193,29651,2008-02-21,247,LEO,174,Intentional Destruction,US Operation Burnt Frost ASAT interception using an SM-3 missile.
+E013,Telstar 401,22927,1997-01-11,35786,GEO,Unknown,Space Weather,Communications satellite experienced total electronic breakup due to solar storm.
