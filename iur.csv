@@ -1,0 +1,13 @@
+event_id,object_name,norad_id,event_date,altitude_km,orbit_type,fragments_cataloged,cause,date
+E009,Transit 4A Able Star,117,29/06/1961,875,LEO,300,Accidental Explosion,1961
+E010,Titan 3C-4 (Rocket Body),1583,15/10/1965,743,LEO,493,Accidental Explosion,1965
+E008,STEP 2 (Rocket Body),23107,3/06/1996,813,LEO,713,Accidental Explosion,1996
+E013,Telstar 401,22927,11/01/1997,35786,GEO,Unknown,Space Weather,1997
+E001,Fengyun-1C (FY-1C),25730,11/01/2007,865,LEO,2800,Intentional Destruction,2007
+E012,USA 193,29651,21/02/2008,247,LEO,174,Intentional Destruction,2008
+E002,Cosmos 2251 and Iridium 33,22675,10/02/2009,789,LEO,1600,Accidental Collision,2009
+E011,DMSP F13,23521,3/02/2015,845,LEO,147,Accidental Explosion,2015
+E005,NOAA 16,26536,25/11/2015,850,LEO,457,Accidental Explosion,2015
+E006,Microsat-R,44052,27/03/2019,282,LEO,400,Intentional Destruction,2019
+E003,Cosmos 1408,13552,15/11/2021,480,LEO,1500,Intentional Destruction,2021
+E007,Cosmos 2499,39765,4/01/2023,1169,LEO,85,Unknown,2023
