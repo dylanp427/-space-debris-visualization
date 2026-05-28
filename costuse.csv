@@ -1,0 +1,10 @@
+Year,Annual_Cost_USD_Millions,Cumulative_Cost_USD_Millions,Cost_Type,Historical_Milestone_Context,Source_Short,Source_URL
+1995,38.1,38.1,Expected Annual Collision Losses,Early commercial satellite era; low background orbit congestion,ScienceDirect (Adilov et al.),https://sciencedirect.com
+2000,49.4,256.9,Expected Annual Collision Losses,Dot-com space bubble; early constellation concepts emerge,ScienceDirect (Adilov et al.),https://sciencedirect.com
+2005,58.7,527.1,Expected Annual Collision Losses,Steady linear risk growth prior to major anti-satellite tests,ScienceDirect (Adilov et al.),https://sciencedirect.com
+2008,71.2,722,Expected Annual Collision Losses,Post-2007 Chinese ASAT test; thousands of fragments created,ScienceDirect (Adilov et al.),https://sciencedirect.com
+2010,81.9,875.1,Expected Annual Collision Losses,Post-2009 Cosmos/Iridium collision; LEO risk spikes permanently,ScienceDirect (Adilov et al.),https://sciencedirect.com
+2012,86,1043,Expected Annual Collision Losses,Baseline global expected loss from tracked debris field,ScienceDirect (Adilov et al.),https://sciencedirect.com
+2015,92.5,1310.8,Expected Annual Collision Losses,Gradual risk increase in line with expanding orbital density,ScienceDirect (Adilov et al.),https://sciencedirect.com
+2020,103,1799.5,Expected Annual Collision Losses,High-end estimate of annualized modern orbital asset damage,ScienceDirect (Adilov et al.),https://sciencedirect.com
+2022,107,2009.5,Expected Annual Collision Losses,Peer-reviewed calculated actual economic drift over time,ScienceDirect (Adilov et al.),https://sciencedirect.com
